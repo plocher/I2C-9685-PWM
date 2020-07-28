@@ -1,0 +1,9 @@
+title: I2C-9685-PWM
+project: I2C-9685-PWM
+designer: John Plocher
+fabricated: yes
+fab_date: 2020-07
+image_path:
+status: released
+release: yes
+tags: [eagle, SPCoast, I2C, Lighting, Appliance]
