@@ -9397,8 +9397,8 @@ LM1117 uses GOI pinout</description>
 <part name="BOARD1" library="SPCoast" deviceset="BOARD" device="80X100-IOB" value="BOARD80X100-IOB"/>
 <part name="FID1" library="SPCoast" deviceset="FIDUCIAL" device=""/>
 <part name="FID2" library="SPCoast" deviceset="FIDUCIAL" device=""/>
-<part name="SW2" library="SPCoast" deviceset="SW_DIP-4" device="" value="A0-A3"/>
-<part name="SW1" library="SPCoast" deviceset="SW_DIP-4" device="" value="A4-A5"/>
+<part name="SW2" library="SPCoast" deviceset="SW_DIP-4" device="" value="A3 A2 A1 A0"/>
+<part name="SW1" library="SPCoast" deviceset="SW_DIP-4" device="" value="xx xx A5 A4"/>
 <part name="V5" library="supply2" deviceset="GND" device=""/>
 <part name="C1" library="SPCoast" deviceset="CAP-POL*" device="0810" value="220uF"/>
 <part name="PWR" library="SPCoast" deviceset="CONNECTOR-DC-POWER" device="-RA"/>
