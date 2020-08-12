@@ -9386,8 +9386,8 @@ LM1117 uses GOI pinout</description>
 <part name="J1" library="SPCoast" deviceset="CONNECTOR-I2C" device="LEFT"/>
 <part name="V12" library="supply2" deviceset="GND" device=""/>
 <part name="BOARD1" library="SPCoast" deviceset="BOARD" device="80X100-IOB" value="BOARD80X100-IOB"/>
-<part name="FID1" library="SPCoast" deviceset="FIDUCIAL" device=""/>
-<part name="FID2" library="SPCoast" deviceset="FIDUCIAL" device=""/>
+<part name="FID-UL" library="SPCoast" deviceset="FIDUCIAL" device=""/>
+<part name="FID-LR" library="SPCoast" deviceset="FIDUCIAL" device=""/>
 <part name="SW2" library="SPCoast" deviceset="SW_DIP-4" device="" value="A3 A2 A1 A0"/>
 <part name="SW1" library="SPCoast" deviceset="SW_DIP-4" device="" value="xx xx A5 A4"/>
 <part name="V5" library="supply2" deviceset="GND" device=""/>
@@ -9485,8 +9485,8 @@ IOB v2 - combine Vin/5v and Vout on passthru pins to daughterboard</text>
 <instance part="J1" gate="I2C" x="38.1" y="157.48"/>
 <instance part="V12" gate="GND" x="48.26" y="160.02" rot="R90"/>
 <instance part="BOARD1" gate="B" x="129.54" y="27.94"/>
-<instance part="FID1" gate="FID1" x="243.84" y="48.26"/>
-<instance part="FID2" gate="FID1" x="243.84" y="55.88"/>
+<instance part="FID-UL" gate="FID1" x="243.84" y="48.26"/>
+<instance part="FID-LR" gate="FID1" x="243.84" y="55.88"/>
 <instance part="SW2" gate="A" x="30.48" y="121.92"/>
 <instance part="SW1" gate="A" x="30.48" y="139.7"/>
 <instance part="V5" gate="GND" x="20.32" y="114.3"/>
